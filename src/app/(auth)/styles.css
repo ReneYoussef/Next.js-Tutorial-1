@@ -1,0 +1,27 @@
+/* Remove Tailwind directives if not processed by Tailwind CLI or PostCSS */
+/* Or ensure your build process includes Tailwind CSS processing */
+
+
+/* styles.css */
+.auth-layout {
+  padding: 2rem;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+}
+
+nav {
+  margin-bottom: 1rem;
+}
+
+.default-link {
+  color: #3b82f6; /* blue-500 */
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.active-link {
+  font-weight: bold;
+  color: #1d4ed8; /* blue-700 */
+  margin-right: 1rem;
+  text-decoration: underline;
+}
