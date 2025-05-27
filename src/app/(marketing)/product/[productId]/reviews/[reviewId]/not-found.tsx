@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation"
-import { use } from "react"
+
 // notFound function don't take any props, it will automatically redirect to the not-found.tsx page
 // if i need to show different messages based on the route parameters,we will relly on the use path name hook from next.js
 export default function NotFound() {
