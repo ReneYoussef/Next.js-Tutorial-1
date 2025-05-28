@@ -1,7 +1,13 @@
-import { Card } from "@/src/components/card";
+import { Card } from "@/src/components/card";import Link from "next/link";
 
 export default function Notifications() {
     return (
-        <Card><h1>Notifications</h1></Card>
+        <Card><div>
+            Notifications
+            </div>
+            <div>
+                <Link href="/complex-dashboard/archived">Archived</Link>
+            </div>
+        </Card>
     );
 }
